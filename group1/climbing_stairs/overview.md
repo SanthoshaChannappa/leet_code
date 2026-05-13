@@ -50,3 +50,6 @@ Explanation: There are three ways to climb to the top.
 Constraints:
 
 1 <= n <= 45
+
+## Solution explanation
+The Climbing Stairs problem can be solved efficiently using Dynamic Programming (DP) because it breaks down into a variation of the Fibonacci sequence. Since you can reach the (n)-th stair either by taking 1 step from step (n-1) or 2 steps from step (n-2), the recurrence relation is defined as (dp[n] = dp[n-1] + dp[n-2]).
